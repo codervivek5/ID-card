@@ -10,7 +10,7 @@ body{
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
-    url(../images/bg.jpg) center no-repeat;
+    url(images/bg.jpg) center no-repeat;
     background-size: cover; 
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@ body{
     transform-origin: left;
     transition: transform 1s;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url(../images/card-bg.jpg)  no-repeat;
+    url(images/card-bg.jpg)  no-repeat;
     background-size: cover;
     background-position-x: 0;
 
@@ -58,7 +58,7 @@ body{
     transform-origin: right;
     transition: transform 1s;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url(../images/card-bg.jpg)  no-repeat;
+    url(images/card-bg.jpg)  no-repeat;
     background-size: cover;
     background-position-x: -180px;
 
@@ -76,7 +76,7 @@ body{
     transform: translateZ(-300px);
     transition: z-index 0.4s step-end, transform 1s, box-shadow 1s;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-    url(../images/person.jpg)  no-repeat;
+    url(images/person.jpg)  no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
